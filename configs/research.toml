@@ -1,0 +1,19 @@
+profile = "research_v1"
+mode = "replay"
+live_enabled = false
+
+[costs]
+buy_fee = 0.00015
+sell_fee = 0.00015
+sell_tax = 0.002
+stress_slippage = 0.001
+verified = false
+basis = "Research evidence example only; replace with account/product/date specific costs"
+
+[broker]
+environment = "mock"
+account_alias = "research"
+
+[risk]
+equity = 10000000
+max_positions = 3

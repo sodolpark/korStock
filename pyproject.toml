@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "korstocktrade"
+version = "0.1.0"
+description = "Deterministic KRX research, capture, replay and Kiwoom execution"
+requires-python = ">=3.12"
+dependencies = ["httpx==0.28.1", "websockets==17.2", "pydantic==2.13.5", "pyarrow==25.0.1", "duckdb==1.5.6", "tzdata==2026.5"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1", "pytest-asyncio==1.4.0", "ruff==0.16.10", "build==1.6.1"]
+
+[project.scripts]
+korstocktrade = "korstocktrade.app.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]

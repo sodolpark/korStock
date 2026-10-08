@@ -1,0 +1,13 @@
+{
+  "operational_pass": false,
+  "performance_pass": false,
+  "mock_contract_pass": false,
+  "stress_pass": false,
+  "shadow_dates": [],
+  "settings_hash": "REPLACE_WITH_VALIDATED_LIVE_SETTINGS_HASH",
+  "code_hash": "REPLACE_WITH_VALIDATED_CODE_HASH",
+  "bootstrap_lower_95": null,
+  "mdd_limit": null,
+  "measured_mdd": null,
+  "artifacts": {}
+}

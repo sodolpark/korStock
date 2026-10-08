@@ -1,0 +1,165 @@
+{
+  "scope": "Offline implementation validation; no broker account session or real/mock broker order executed",
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "code_hash": "879be12853646ff76b8fd726fd638e9a724bbd4e277184ceb00cf881745d6df0",
+  "settings_hash": "7410e91df6505ceb84f6ed82b120eab206a22d760fc4473bbc6a34ad11bb9c02",
+  "live_enabled": false,
+  "tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "73",
+    "time": "8.671",
+    "timestamp": "2026-10-09T00:23:07.244974+09:00",
+    "hostname": "DESKTOP-ILNJKNF"
+  },
+  "lint": "passed",
+  "format": "passed",
+  "dependency_check": "passed",
+  "artifacts": {
+    "reports\\runs\\acceptance\\events.jsonl": "3d1f6d09d60aabe5688f75d8cf832b3ef2436bd06aa9268ae1f0bf3cb90abed4",
+    "reports\\runs\\acceptance\\report.json": "c707a0f3930358472203b9443f311a7f3cdf98cc9e61a63da8eb7a8856de33a3",
+    "reports\\runs\\acceptance\\replay.json": "c707a0f3930358472203b9443f311a7f3cdf98cc9e61a63da8eb7a8856de33a3",
+    "reports\\runs\\acceptance\\stress.json": "af1abe6617892cd6b0e829c2a951db037ec4d0ba9bb407305b2c197c5d47ea02",
+    "reports\\validation-tests.xml": "9546067044086b76d73e66337e05350b1a0798cb0f273bd31aac0e20702a3a17",
+    "requirements.lock.txt": "a6dea30ee5e208c2d94016d9952650facac432f2ab06cf10ec0fa9651ded2a70",
+    "dist\\korstocktrade-0.1.0-py3-none-any.whl": "78ad2843d2731a3746bdf7e6b489d3a315abf7aefca3bb02bdda4bd31724e5e9",
+    "dist\\korstocktrade-0.1.0.tar.gz": "db2e89c516ef41b94553fed202b8f527776b529443c557e72b787c02df15f95c"
+  },
+  "replay": {
+    "data_hash": "3d1f6d09d60aabe5688f75d8cf832b3ef2436bd06aa9268ae1f0bf3cb90abed4",
+    "signal_hash": "ce1338d645897569e3bfd0433879a6d82ca73552aab8e775dad6ade26bc015f7",
+    "quality": {
+      "events": 3783,
+      "invalid": 0,
+      "gaps": 1,
+      "exchange_latency_precision": "exchange timestamps have second precision; no millisecond estimate",
+      "market_completeness_proven": false
+    },
+    "orders": 3,
+    "round_trips": 1,
+    "closing_handoff_required": false,
+    "qualification": "UNVALIDATED"
+  },
+  "repeat_signals_equal": true,
+  "stress": {
+    "baseline": {
+      "settings_hash": "7410e91df6505ceb84f6ed82b120eab206a22d760fc4473bbc6a34ad11bb9c02",
+      "orders": 3,
+      "round_trips": 1,
+      "net_realized": 7207.65,
+      "fill_rate": 0.6666666666666666,
+      "closing_handoff_required": false,
+      "qualification": "UNVALIDATED"
+    },
+    "double_cost": {
+      "settings_hash": "b9fad797937204920c4fd0ca351f657b68c40bdec6d825a4752bc32809298642",
+      "orders": 3,
+      "round_trips": 1,
+      "net_realized": 4173.6,
+      "fill_rate": 0.6666666666666666,
+      "closing_handoff_required": false,
+      "qualification": "UNVALIDATED"
+    },
+    "adverse_1tick": {
+      "settings_hash": "8587c8a567fe9d5de077d97739522f0efb226182ed497f88e29a1c035af01a5f",
+      "orders": 1,
+      "round_trips": 0,
+      "net_realized": 0.0,
+      "fill_rate": 0.0,
+      "closing_handoff_required": false,
+      "qualification": "UNVALIDATED"
+    },
+    "adverse_2ticks": {
+      "settings_hash": "5905f1f8dae978277a0982d8a7b84600fc418f93815a028c119cc140dc4bad20",
+      "orders": 1,
+      "round_trips": 0,
+      "net_realized": 0.0,
+      "fill_rate": 0.0,
+      "closing_handoff_required": false,
+      "qualification": "UNVALIDATED"
+    },
+    "latency_1s": {
+      "settings_hash": "57510ae2176e9d32e000aa69605af7694b734db89f0920cd0c489b09d341cde9",
+      "orders": 6,
+      "round_trips": 1,
+      "net_realized": -5724.486,
+      "fill_rate": 0.3333333333333333,
+      "closing_handoff_required": false,
+      "qualification": "UNVALIDATED"
+    },
+    "risk_and_time": {
+      "settings_hash": "9192dfa30832ea1f6b9d3f3e30c1357bf042dabe74660ffe3c91183621fb0e71",
+      "orders": 1,
+      "round_trips": 0,
+      "net_realized": 0.0,
+      "fill_rate": 1.0,
+      "closing_handoff_required": true,
+      "qualification": "UNVALIDATED"
+    },
+    "with_trailing": {
+      "settings_hash": "35ffe17e61241502b2631464edef0f7349c270e579a21605fb1cae02e9cd4c72",
+      "orders": 3,
+      "round_trips": 1,
+      "net_realized": 7207.65,
+      "fill_rate": 0.6666666666666666,
+      "closing_handoff_required": false,
+      "qualification": "UNVALIDATED"
+    },
+    "fixed_360": {
+      "settings_hash": "c31d8838707bd1e96ebeacc6916b0e7425751de72da215ed335045514422edad",
+      "orders": 3,
+      "round_trips": 1,
+      "net_realized": 7207.65,
+      "fill_rate": 0.6666666666666666,
+      "closing_handoff_required": false,
+      "qualification": "UNVALIDATED"
+    }
+  },
+  "synthetic_benchmarks": [
+    {
+      "code_hash": "13a769effb8596b963eb11597058a36d7bb8215d8550c5dbf0f94b0d9050c61a",
+      "settings_hash": "7410e91df6505ceb84f6ed82b120eab206a22d760fc4473bbc6a34ad11bb9c02",
+      "synthetic": true,
+      "symbols": 30,
+      "simulated_seconds": 130,
+      "events": 31200,
+      "wall_seconds": 15.247315300017362,
+      "events_per_second": 2046.2618753587703,
+      "processing_median_ms": 0.4454999871086329,
+      "processing_p99_ms": 1.3783000176772475,
+      "raw_bytes": 21420220,
+      "invalid": 0,
+      "real_network_qualification": false,
+      "data_hash": "1a3396ddf2565537c7ebfd2dd63fa2cdbffd474acf06c6cb2474012e36259a9a"
+    },
+    {
+      "code_hash": "13a769effb8596b963eb11597058a36d7bb8215d8550c5dbf0f94b0d9050c61a",
+      "settings_hash": "2d89b3beda904bd54502c3355983764abd72f55da9e8c8c72742918ad4642986",
+      "synthetic": true,
+      "symbols": 50,
+      "simulated_seconds": 130,
+      "events": 52000,
+      "wall_seconds": 31.694698699982837,
+      "events_per_second": 1640.6529209261155,
+      "processing_median_ms": 0.5570999928750098,
+      "processing_p99_ms": 1.6851999971549958,
+      "raw_bytes": 35707340,
+      "invalid": 0,
+      "real_network_qualification": false,
+      "data_hash": "302aa89bee3aa05bb1f00a54776917cc0df742f3534201f5415029f987106dd2"
+    }
+  ],
+  "benchmark_note": "Benchmark code hash is preserved independently; the final later change only tightened UNKNOWN-order reconciliation.",
+  "outstanding": [
+    "Actual Kiwoom credentials/IP and contract qualification",
+    "Dated instruments, calendar and account cost inputs",
+    "Real 30-symbol capture quality",
+    "Real mock account order/cancel/fill/reconnect qualification",
+    "Separated real-market performance evaluation and predeclared MDD",
+    "At least 20 trading days of shadow observation",
+    "Limited live execution qualification"
+  ]
+}

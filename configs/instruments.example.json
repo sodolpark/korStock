@@ -1,0 +1,16 @@
+[
+  {
+    "symbol": "005930",
+    "name": "SYNTHETIC EXAMPLE",
+    "board": "KOSPI",
+    "product": "COMMON",
+    "verified_date": "2026-10-08",
+    "listing_date": "2000-01-01",
+    "lower_limit": 7000,
+    "upper_limit": 13000,
+    "normal": false,
+    "halted": false,
+    "single_price": false,
+    "overheated": false
+  }
+]

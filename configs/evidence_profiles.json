@@ -1,0 +1,23 @@
+{
+  "evidence_ui": {
+    "executable": false,
+    "trend_threshold": 0.01,
+    "trend_unit": "unknown",
+    "imbalance_threshold": -0.7,
+    "stop_loss_enabled": false,
+    "trailing_activation_pct": 2,
+    "profit_retracement_pct": 20,
+    "weighted_sum_enabled": true,
+    "entry_formula": null
+  },
+  "evidence_trade": {
+    "executable": false,
+    "trend_threshold": 0.05,
+    "trend_unit": "unknown",
+    "imbalance_threshold": -0.7,
+    "confirmed_high_pct": 2.95,
+    "floor_pct": 2.36,
+    "session_exit": "15:20:00",
+    "entry_formula": null
+  }
+}

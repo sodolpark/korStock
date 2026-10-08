@@ -1,0 +1,14 @@
+{
+  "2026-10-08": {
+    "trading_date": "2026-10-08",
+    "closed": false,
+    "open": "09:00:00",
+    "entry_start": "09:02:00",
+    "entry_end": "14:50:00",
+    "exit_start": "15:19:00",
+    "auction_start": "15:20:00",
+    "close": "15:30:00",
+    "verified": false,
+    "source": "SYNTHETIC EXAMPLE: verify actual date/session before online use"
+  }
+}

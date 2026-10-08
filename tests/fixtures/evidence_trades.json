@@ -1,0 +1,26 @@
+[
+  {
+    "entry_time": "09:00:28",
+    "exit_time": "09:09:16",
+    "buy": 142500,
+    "sell": 145400,
+    "net": 2566,
+    "reason": "profit_trailing"
+  },
+  {
+    "entry_time": "09:09:36",
+    "exit_time": "09:44:18",
+    "buy": 145100,
+    "sell": 146500,
+    "net": 1063,
+    "reason": "trend_imbalance"
+  },
+  {
+    "entry_time": "11:34:45",
+    "exit_time": "15:20:00",
+    "buy": 149300,
+    "sell": 153500,
+    "net": 3848,
+    "reason": "session_exit"
+  }
+]
